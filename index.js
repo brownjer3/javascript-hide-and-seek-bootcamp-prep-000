@@ -11,6 +11,6 @@ function increaseRankBy(n) {
   
   for (var i = 0; i < rank.length; i++) {
     var number = rank[i].innerHTML;
-    number = (i + n).toString();
+    number = (number + n).toString();
   }
 }
